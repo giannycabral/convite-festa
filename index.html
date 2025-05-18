@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convite de Aniversário Kawaii</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Confetti -->
+        <div id="confetti-container"></div> <!-- Convite -->
+        <div class="card pixel-border">
+            <!-- Cabeçalho -->
+            <div class="header">
+                <h1>🎉 Convite Especial! 🎉</h1>
+            </div>
+
+            <!-- Conteúdo -->
+            <div class="content">
+
+                <div class="text-section">
+                    <p class="subtitle">Você está convidado(a) para o meu</p>
+                    <h2 class="title">Mega Aniversário!</h2>
+
+                    <div class="info-box">
+                        <p class="info">📅 Data: 15/10/2023</p>
+                        <p class="info">⏰ Horário: 14:00 às 18:00</p>
+                        <p class="info">📍 Local: Rua dos Doces, 123</p>
+                    </div>
+                    <p class="description">Traga seu sorriso e prepare-se para muita diversão, doces e jogos!</p>
+
+                    <div class="characters">
+                        <div class="pixel-character unicorn float">
+                            <div class="head"></div>
+                            <div class="horn"></div>
+                            <div class="mane"></div>
+                            <div class="body"></div>
+                            <div class="legs"></div>
+                        </div>
+                        <div class="pixel-character cat float">
+                            <div class="head"></div>
+                            <div class="ears"></div>
+                            <div class="body"></div>
+                            <div class="tail"></div>
+                        </div>
+                        <div class="pixel-character bunny float">
+                            <div class="head"></div>
+                            <div class="ears"></div>
+                            <div class="body"></div>
+                            <div class="feet"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-wrapper">
+                    <button id="rsvp-btn">Confirmar Presença</button>
+                </div>
+            </div>
+
+            <!-- Rodapé -->
+            <div class="footer">
+                <p>Espero você lá! Com carinho, <span class="bold">Regiane</span> 💖</p>
+            </div>
+        </div>
+    </div> <!-- Controle de música -->
+    <button class="music-control pixel-border" id="music-btn">🎵 Música</button>
+    <div class="music-credits">
+        Music by <a
+            href="https://pixabay.com/users/delosound-46524562/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=298561">DELOSound</a>
+        from <a
+            href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=298561">Pixabay</a>
+    </div>
+    <audio id="bgm" loop>
+        <source src="music/happy-birthday.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
