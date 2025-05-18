@@ -65,7 +65,7 @@ As cores podem ser facilmente alteradas através das variáveis CSS:
 
 - Música por [DELOSound](https://pixabay.com/users/delosound-46524562/) via Pixabay
 - Fonte Press Start 2P via Google Fonts
-- Design e implementação por [Seu Nome]
+- Design e implementação por [Regiane Cabral](https://github.com/giannycabral)
 
 ## 📱 Compatibilidade
 
